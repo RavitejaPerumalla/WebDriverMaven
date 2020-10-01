@@ -32,6 +32,7 @@ public class LoginTest {
 		driver.findElement(By.id("identifierId")).sendKeys("trainer@way2automation.com");
 		driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/div/button")).click();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("password"))).sendKeys("flglhh");
+		driver.findElement(By.xpath("//*[@id=\"passwordNext\"]/div/button/div[2]")).click();
 	}
 	
 	@AfterSuite
