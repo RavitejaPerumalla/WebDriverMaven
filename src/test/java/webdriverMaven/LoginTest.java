@@ -33,6 +33,8 @@ public class LoginTest {
 		driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/div/button")).click();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("password"))).sendKeys("flglhh");
 		driver.findElement(By.xpath("//*[@id=\"passwordNext\"]/div/button/div[2]")).click();
+		
+		//added new comments
 	}
 	
 	@AfterSuite
