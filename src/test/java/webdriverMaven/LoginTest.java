@@ -26,7 +26,7 @@ public class LoginTest {
 	@Test
 	public void doLogin() {
 		
-		// the EGit Changes
+		//the EGit Changes
 		driver.get("http://gmail.com");
 		driver.manage().window().maximize();
 		WebDriverWait wait = new WebDriverWait(driver, 5);
